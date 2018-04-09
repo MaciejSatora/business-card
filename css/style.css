@@ -1,0 +1,10 @@
+.container {
+	text-align: center;
+}
+.row {
+	height: 100px;
+	border: 2px solid red;
+}
+[class*="col-"] {
+	border: 2px solid green;
+}
