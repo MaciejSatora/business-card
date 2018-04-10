@@ -1,5 +1,11 @@
+body {
+	background-image: url("http://kb4images.com/images/light-wallpaper/37734511-light-wallpaper.jpg");
+}
 .container {
 	text-align: center;
+}
+.navbar {
+	height: 10vh;
 }
 .jumbotron {
 	background-image: url("https://wallup.net/wp-content/uploads/2016/12/08/148853-white-black-Jack_Daniels-alcohol-748x421.jpg");
@@ -15,4 +21,58 @@
 	background-image: url("https://d3ltpfxjzvda6e.cloudfront.net/2014/09/25/wallpaper-cnc_10b15392.png");
 	background-size: cover;
 	width: 100%;
+}
+.row {
+	margin: 10px;
+}
+.map {
+	margin: 0 auto;
+}
+.map img {
+	width: 70%;
+	height: 70vh;
+}
+.twitter {
+	color: #4099FF;
+}
+.facebook {
+	color: #3B5998;
+}
+.google-plus {
+	color: #DB5A3C;
+}
+.instagram {
+	color: #5C3D2E;
+}
+.github {
+	color: #4183C4;
+}
+.icon-btn:hover {
+	transform: scale(1.10);
+	color: white;
+	transition: ease-in-out .3s
+}
+.twitter:hover {
+	background: #4099FF;
+}
+.facebook:hover {
+	background: #3B5998;
+}
+.google-plus:hover {
+	background: #DB5A3C;
+}
+.instagram:hover {
+	background: #5C3D2E;
+}
+.github:hover {
+	background: #4183C4;
+}
+.icon-btn {
+	height: 75px;
+	width: 75px;
+	border: none;
+	border-radius: 50%;
+	margin: 0 auto;
+	cursor: pointer;
+	font-size: 40px;
 }
