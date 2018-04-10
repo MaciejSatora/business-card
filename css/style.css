@@ -1,10 +1,18 @@
 .container {
 	text-align: center;
 }
-.row {
-	height: 100px;
-	border: 2px solid red;
+.jumbotron {
+	background-image: url("https://wallup.net/wp-content/uploads/2016/12/08/148853-white-black-Jack_Daniels-alcohol-748x421.jpg");
+	color: white;
+	background-size: cover;
+	width: 100%;
 }
-[class*="col-"] {
-	border: 2px solid green;
+.image p {
+	text-align: center;
+	color: white;
+}
+.image .col-8 {
+	background-image: url("https://d3ltpfxjzvda6e.cloudfront.net/2014/09/25/wallpaper-cnc_10b15392.png");
+	background-size: cover;
+	width: 100%;
 }
